@@ -1,6 +1,5 @@
 body {
   background-color: hsl(185, 75%, 39%);
-  max-height:100%;
   background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
   background-position: left 25% top -20%, right -10% top -870%;
   background-repeat: no-repeat, no-repeat;
@@ -23,7 +22,7 @@ body {
   border-radius: 15px;
   box-shadow: 1px 1px 50px hsl(227, 10%, 46%);
   max-width: 23rem;
-  max-height:20rem;
+  max-height:70%;
   margin-top:40%;
   margin-bottom:20%;
   margin-left: 20%;
@@ -31,14 +30,16 @@ body {
 }
 #card-body{
   width: 100%;
+  max-height: 30%;
   text-align: center;
-  transform: translate(0px, -80%);
+  margin-top: -20%
 }
 #List-item{
-  transform: translate(0px, -90%);
+
   text-align: center;
 }
 #num_socials{
+  max-height: 10%;
   text-align: center;
   margin-right: 20px;
   margin-left: 20px;
