@@ -1,0 +1,52 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  max-height:100%;
+  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-position: left 25% top -20%, right -10% top -870%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+#pfp{
+  border-radius: 70%;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  transform: translate(0px, -50%);
+}
+#card{
+  border-style: solid;
+  border-color: hsl(185, 75%, 39%);
+  border-radius: 15px;
+  box-shadow: 1px 1px 50px hsl(227, 10%, 46%);
+  max-width: 23rem;
+  max-height:20rem;
+  margin-top:40%;
+  margin-bottom:20%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#card-body{
+  width: 100%;
+  text-align: center;
+  transform: translate(0px, -80%);
+}
+#List-item{
+  transform: translate(0px, -90%);
+  text-align: center;
+}
+#num_socials{
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size:9px;
+
+}
+#crd-img{
+  transform: translate(0px, -1%);
+}
